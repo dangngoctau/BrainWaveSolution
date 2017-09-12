@@ -23,7 +23,7 @@
         Include="%(ModuleProjectContentFiles.FullPath)|\Packages\%(ModuleProjectContentFiles.ProjectName)\Content\%(RecursiveDir)">
       </ModuleProjectContentFilesMapping>
     </ItemGroup>
-    <Message Text="Copying contents from modules @(ModuleProjectContentFiles)" Importance="high"/>
+    <Message Text="Copying contents from modules %(ModuleProjectReferences.RootDir)%(Directory)Content\**\*" Importance="high"/>
     <Copy
       SourceFiles="@(ModuleProjectContentFiles)"
       DestinationFolder="$(MSBuildProjectDirectory)\Packages\%(ModuleProjectContentFiles.ProjectName)\Content\%(RecursiveDir)" />

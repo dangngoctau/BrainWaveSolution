@@ -1,0 +1,27 @@
+D:\learn\AmbitionCms\AmbitionCms\Ambition.Themes\DefaultTheme\bin\Debug\netcoreapp2.0\DefaultTheme.deps.json
+D:\learn\AmbitionCms\AmbitionCms\Ambition.Themes\DefaultTheme\bin\Debug\netcoreapp2.0\DefaultTheme.dll
+D:\learn\AmbitionCms\AmbitionCms\Ambition.Themes\DefaultTheme\bin\Debug\netcoreapp2.0\DefaultTheme.pdb
+D:\learn\AmbitionCms\AmbitionCms\Ambition.Themes\DefaultTheme\obj\Debug\netcoreapp2.0\DefaultTheme.csproj.CoreCompileInputs.cache
+D:\learn\AmbitionCms\AmbitionCms\Ambition.Themes\DefaultTheme\obj\Debug\netcoreapp2.0\DefaultTheme.AssemblyInfoInputs.cache
+D:\learn\AmbitionCms\AmbitionCms\Ambition.Themes\DefaultTheme\obj\Debug\netcoreapp2.0\DefaultTheme.AssemblyInfo.cs
+D:\learn\AmbitionCms\AmbitionCms\Ambition.Themes\DefaultTheme\obj\Debug\netcoreapp2.0\DefaultTheme.dll
+D:\learn\AmbitionCms\AmbitionCms\Ambition.Themes\DefaultTheme\obj\Debug\netcoreapp2.0\DefaultTheme.pdb
+D:\learn\AmbitionCms\AmbitionCms\Ambition.Themes\DefaultTheme\obj\Debug\netcoreapp2.0\DefaultTheme.csprojResolveAssemblyReference.cache
+C:\Users\taudang\Downloads\New folder\AmbitionCms\AmbitionCms\Ambition.Themes\DefaultTheme\bin\Debug\netcoreapp2.0\DefaultTheme.deps.json
+C:\Users\taudang\Downloads\New folder\AmbitionCms\AmbitionCms\Ambition.Themes\DefaultTheme\bin\Debug\netcoreapp2.0\DefaultTheme.dll
+C:\Users\taudang\Downloads\New folder\AmbitionCms\AmbitionCms\Ambition.Themes\DefaultTheme\bin\Debug\netcoreapp2.0\DefaultTheme.pdb
+C:\Users\taudang\Downloads\New folder\AmbitionCms\AmbitionCms\Ambition.Themes\DefaultTheme\obj\Debug\netcoreapp2.0\DefaultTheme.csprojResolveAssemblyReference.cache
+C:\Users\taudang\Downloads\New folder\AmbitionCms\AmbitionCms\Ambition.Themes\DefaultTheme\obj\Debug\netcoreapp2.0\DefaultTheme.csproj.CoreCompileInputs.cache
+C:\Users\taudang\Downloads\New folder\AmbitionCms\AmbitionCms\Ambition.Themes\DefaultTheme\obj\Debug\netcoreapp2.0\DefaultTheme.AssemblyInfoInputs.cache
+C:\Users\taudang\Downloads\New folder\AmbitionCms\AmbitionCms\Ambition.Themes\DefaultTheme\obj\Debug\netcoreapp2.0\DefaultTheme.AssemblyInfo.cs
+C:\Users\taudang\Downloads\New folder\AmbitionCms\AmbitionCms\Ambition.Themes\DefaultTheme\obj\Debug\netcoreapp2.0\DefaultTheme.dll
+C:\Users\taudang\Downloads\New folder\AmbitionCms\AmbitionCms\Ambition.Themes\DefaultTheme\obj\Debug\netcoreapp2.0\DefaultTheme.pdb
+D:\Workspaces\UpWork\Up01\BrainWaveSolution\BrainWave.Themes\DefaultTheme\bin\Debug\netcoreapp2.0\DefaultTheme.deps.json
+D:\Workspaces\UpWork\Up01\BrainWaveSolution\BrainWave.Themes\DefaultTheme\bin\Debug\netcoreapp2.0\DefaultTheme.dll
+D:\Workspaces\UpWork\Up01\BrainWaveSolution\BrainWave.Themes\DefaultTheme\bin\Debug\netcoreapp2.0\DefaultTheme.pdb
+D:\Workspaces\UpWork\Up01\BrainWaveSolution\BrainWave.Themes\DefaultTheme\obj\Debug\netcoreapp2.0\DefaultTheme.csprojResolveAssemblyReference.cache
+D:\Workspaces\UpWork\Up01\BrainWaveSolution\BrainWave.Themes\DefaultTheme\obj\Debug\netcoreapp2.0\DefaultTheme.csproj.CoreCompileInputs.cache
+D:\Workspaces\UpWork\Up01\BrainWaveSolution\BrainWave.Themes\DefaultTheme\obj\Debug\netcoreapp2.0\DefaultTheme.AssemblyInfoInputs.cache
+D:\Workspaces\UpWork\Up01\BrainWaveSolution\BrainWave.Themes\DefaultTheme\obj\Debug\netcoreapp2.0\DefaultTheme.AssemblyInfo.cs
+D:\Workspaces\UpWork\Up01\BrainWaveSolution\BrainWave.Themes\DefaultTheme\obj\Debug\netcoreapp2.0\DefaultTheme.dll
+D:\Workspaces\UpWork\Up01\BrainWaveSolution\BrainWave.Themes\DefaultTheme\obj\Debug\netcoreapp2.0\DefaultTheme.pdb

@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Builder;
+﻿using BrainWave.Environment;
+using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc.Internal;
 using Microsoft.AspNetCore.Mvc.Razor;
@@ -19,27 +20,17 @@ namespace Microsoft.Extensions.DependencyInjection
         {
             // todo: move packages name to options
             var builder = services.AddMvcModules();
+            services.AddTransient<IModuleLoader, ModuleLoader>();
+            services.Configure<ModularExpanderOptions>(c => c.Packages = "Packages");
             var serviceProvider = services.BuildServiceProvider();
             var env = serviceProvider.GetRequiredService<IHostingEnvironment>();
-            var modules = env.ContentRootFileProvider.GetDirectoryContents("Packages")
-                .Where(c => c.IsDirectory/* && File.Exists(Path.Combine(c.PhysicalPath, "Module.txt"))*/);
+            var moduleLoader = serviceProvider.GetRequiredService<IModuleLoader>();
+            var modules = moduleLoader.LoadModules();
             foreach (var module in modules)
             {
-                var assembly = Assembly.Load(new AssemblyName(module.Name));
-                // Get export types.
-                if (assembly == null)
+                foreach (Type startup in module.ExportedStartupTypes)
                 {
-                    // 
-                }
-                else
-                {
-                    var exportedTypes = assembly.ExportedTypes.Where(IsComponentType);
-                    exportedTypes = exportedTypes.Where(t => typeof(IStartup).IsAssignableFrom(t));
-
-                    foreach (Type startup in exportedTypes)
-                    {
-                        services.AddSingleton(typeof(IStartup), startup);
-                    }
+                    services.AddSingleton(typeof(IStartup), startup);
                 }
             }
 
@@ -51,27 +42,18 @@ namespace Microsoft.Extensions.DependencyInjection
             var builder = services.AddMvc()
                 .AddRazorOptions(options =>
                 {
-                    options.ViewLocationExpanders.Add(new ModularViewLocationExpanderProvider());
-                    options.AddLayoutLocationFormats();
+                    options.ViewLocationExpanders.Add(new ModularViewLocationExpandBuilder());
+                    options.AddModularLayoutLocationFormats();
                 });
 
             return builder;
-        }
-
-        public static RazorViewEngineOptions AddLayoutLocationFormats(this RazorViewEngineOptions options)
-        {
-            // todo: move Packages, DefaultTheme to config.
-            options.AreaViewLocationFormats.Clear();
-            options.AreaViewLocationFormats.Add("/Packages/DefaultTheme/{2}/{1}/{0}" + RazorViewEngine.ViewExtension);
-            options.AreaViewLocationFormats.Add("/Packages/DefaultTheme/Views/" + "{0}" + RazorViewEngine.ViewExtension);
-
-            return options;
         }
 
         public static void ConfigureBrainWaveCms(this IApplicationBuilder app)
         {
             var serviceProvider = app.ApplicationServices;
             var env = serviceProvider.GetRequiredService<IHostingEnvironment>();
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
@@ -79,58 +61,25 @@ namespace Microsoft.Extensions.DependencyInjection
             }
             else
             {
+                // todo: Declare this page in module pages.
                 app.UseExceptionHandler("/Home/Error");
             }
 
-            // todo: move router builder to Builders.
-            var routes = new RouteBuilder(app)
-            {
-                DefaultHandler = serviceProvider.GetRequiredService<MvcRouteHandler>(),
-            };
-
-            var inlineConstraintResolver = app.ApplicationServices.GetRequiredService<IInlineConstraintResolver>();
-            routes.Routes.Add(new Route(
-                routes.DefaultHandler,
-                "areaRoute",
-                "{area:exists}/{controller}/{action}/{id?}",
-                null,
-                null,
-                null,
-                inlineConstraintResolver)
-            );
-
+            var routeBuilder = app.CreateModularRouteBuilder();
             var startups = serviceProvider.GetServices<IStartup>();
             foreach (var startup in startups)
             {
-                startup.Configure(app, routes, serviceProvider);
+                startup.Configure(app, routeBuilder, serviceProvider);
             }
 
             app.UseStaticFilesModules();
-            app.UseRouter(routes.Build());
+            app.UseRouter(routeBuilder.Build());
         }
 
         private static bool IsComponentType(Type type)
         {
             var typeInfo = type.GetTypeInfo();
             return typeInfo.IsClass && !typeInfo.IsAbstract && typeInfo.IsPublic;
-        }
-    }
-
-    public class ModularViewLocationExpanderProvider : IViewLocationExpander
-    {
-        // todo: move "Packages" to service options.
-        public IEnumerable<string> ExpandViewLocations(ViewLocationExpanderContext context, IEnumerable<string> viewLocations)
-        {
-            var result = new List<string>();
-            result.AddRange(viewLocations);
-            var extensionViewsPath = "/Packages/" + context.AreaName + "/Views";
-            result.Add(extensionViewsPath + "/{1}/{0}" + RazorViewEngine.ViewExtension);
-            result.Add(extensionViewsPath + "/Shared/{0}" + RazorViewEngine.ViewExtension);
-            return result;
-        }
-
-        public void PopulateValues(ViewLocationExpanderContext context)
-        {
         }
     }
 }

@@ -13,8 +13,14 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\BrainWave.Environment\BrainWave.Environment.csproj" />
     <ProjectReference Include="..\..\BrainWave.Modules\BrainWave.Pages\BrainWave.Pages.csproj" />
+    <ProjectReference Include="..\..\BrainWave.Themes\DefaultTheme\DefaultTheme.csproj" />
     <ProjectReference Include="..\BrainWave.ModuleAbstractions\BrainWave.ModuleAbstractions.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Extensions\" />
   </ItemGroup>
 
 </Project>

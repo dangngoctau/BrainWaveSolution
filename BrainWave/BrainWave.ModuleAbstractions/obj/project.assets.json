@@ -1030,7 +1030,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\dntau.AAVN\\.nuget\\packages\\": {},
+    "C:\\Users\\taudang\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -1039,17 +1039,17 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "D:\\Learning\\BrainWave\\BrainWaveSolution\\BrainWave\\BrainWave.ModuleAbstractions\\BrainWave.ModuleAbstractions.csproj",
+      "projectUniqueName": "D:\\Workspaces\\UpWork\\Up01\\BrainWaveSolution\\BrainWave\\BrainWave.ModuleAbstractions\\BrainWave.ModuleAbstractions.csproj",
       "projectName": "BrainWave.ModuleAbstractions",
-      "projectPath": "D:\\Learning\\BrainWave\\BrainWaveSolution\\BrainWave\\BrainWave.ModuleAbstractions\\BrainWave.ModuleAbstractions.csproj",
-      "packagesPath": "C:\\Users\\dntau.AAVN\\.nuget\\packages\\",
-      "outputPath": "D:\\Learning\\BrainWave\\BrainWaveSolution\\BrainWave\\BrainWave.ModuleAbstractions\\obj\\",
+      "projectPath": "D:\\Workspaces\\UpWork\\Up01\\BrainWaveSolution\\BrainWave\\BrainWave.ModuleAbstractions\\BrainWave.ModuleAbstractions.csproj",
+      "packagesPath": "C:\\Users\\taudang\\.nuget\\packages\\",
+      "outputPath": "D:\\Workspaces\\UpWork\\Up01\\BrainWaveSolution\\BrainWave\\BrainWave.ModuleAbstractions\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\dntau.AAVN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\taudang\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1057,9 +1057,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://www.myget.org/F/xappido/auth/16cd411a-032c-4f6f-899e-584789572ddf/api/v2": {},
-        "https://www.nuget.org/api/v2/": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.0": {

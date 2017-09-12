@@ -3,7 +3,8 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Website - Custom</title>
+    <title>BrainWave - Used Own Layout</title>
+    @RenderSection("Styles", required: false)
 </head>
 <body>
     <h1>Theme</h1>
@@ -11,7 +12,7 @@
     <hr />
     <footer>
         @RenderSection("Scripts", required: false)
-        <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+        <p>&copy; @DateTime.Now.Year - BrainWave</p>
     </footer>
 </body>
 </html>

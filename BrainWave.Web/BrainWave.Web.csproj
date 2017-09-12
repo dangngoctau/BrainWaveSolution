@@ -5,6 +5,12 @@
     <MvcRazorCompileOnPublish>false</MvcRazorCompileOnPublish>
     <!--<DockerComposeProjectPath>..\docker-compose.dcproj</DockerComposeProjectPath>-->
   </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="Packages\**" />
+    <Content Remove="Packages\**" />
+    <EmbeddedResource Remove="Packages\**" />
+    <None Remove="Packages\**" />
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.0" />
@@ -13,7 +19,6 @@
   <ItemGroup>
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.0" />
   </ItemGroup>
-
   <ItemGroup>
     <ProjectReference Include="..\BrainWave\BrainWave.Core\BrainWave.Core.csproj" />
   </ItemGroup>

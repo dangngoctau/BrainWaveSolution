@@ -1,7 +1,14 @@
-﻿@{ 
+﻿@{
     Layout = "../Layout.cshtml";
+}
+
+@section Styles {
+    <link type="text/css" href="/BrainWave.Pages/Styles/test.css" rel="stylesheet" />
 }
 
 @await Component.InvokeAsync("ToDoList", new { maxPriority = 5, isDone = true })
 <h1>Hello world</h1>
-<script src="/BrainWave.Pages/Content/Javascripts/test.js" type="text/javascript"></script>
+
+@section Scripts{
+    <script src="/BrainWave.Pages/Scripts/test.js" type="text/javascript"></script>
+}

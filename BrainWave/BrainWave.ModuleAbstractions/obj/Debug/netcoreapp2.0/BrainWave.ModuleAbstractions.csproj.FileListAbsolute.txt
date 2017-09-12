@@ -15,3 +15,12 @@ D:\Learning\BrainWave\BrainWaveSolution\BrainWave\BrainWave.ModuleAbstractions\o
 D:\Learning\BrainWave\BrainWaveSolution\BrainWave\BrainWave.ModuleAbstractions\obj\Debug\netcoreapp2.0\BrainWave.ModuleAbstractions.AssemblyInfo.cs
 D:\Learning\BrainWave\BrainWaveSolution\BrainWave\BrainWave.ModuleAbstractions\obj\Debug\netcoreapp2.0\BrainWave.ModuleAbstractions.dll
 D:\Learning\BrainWave\BrainWaveSolution\BrainWave\BrainWave.ModuleAbstractions\obj\Debug\netcoreapp2.0\BrainWave.ModuleAbstractions.pdb
+D:\Workspaces\UpWork\Up01\BrainWaveSolution\BrainWave\BrainWave.ModuleAbstractions\bin\Debug\netcoreapp2.0\BrainWave.ModuleAbstractions.deps.json
+D:\Workspaces\UpWork\Up01\BrainWaveSolution\BrainWave\BrainWave.ModuleAbstractions\bin\Debug\netcoreapp2.0\BrainWave.ModuleAbstractions.dll
+D:\Workspaces\UpWork\Up01\BrainWaveSolution\BrainWave\BrainWave.ModuleAbstractions\bin\Debug\netcoreapp2.0\BrainWave.ModuleAbstractions.pdb
+D:\Workspaces\UpWork\Up01\BrainWaveSolution\BrainWave\BrainWave.ModuleAbstractions\obj\Debug\netcoreapp2.0\BrainWave.ModuleAbstractions.csprojResolveAssemblyReference.cache
+D:\Workspaces\UpWork\Up01\BrainWaveSolution\BrainWave\BrainWave.ModuleAbstractions\obj\Debug\netcoreapp2.0\BrainWave.ModuleAbstractions.csproj.CoreCompileInputs.cache
+D:\Workspaces\UpWork\Up01\BrainWaveSolution\BrainWave\BrainWave.ModuleAbstractions\obj\Debug\netcoreapp2.0\BrainWave.ModuleAbstractions.AssemblyInfoInputs.cache
+D:\Workspaces\UpWork\Up01\BrainWaveSolution\BrainWave\BrainWave.ModuleAbstractions\obj\Debug\netcoreapp2.0\BrainWave.ModuleAbstractions.AssemblyInfo.cs
+D:\Workspaces\UpWork\Up01\BrainWaveSolution\BrainWave\BrainWave.ModuleAbstractions\obj\Debug\netcoreapp2.0\BrainWave.ModuleAbstractions.dll
+D:\Workspaces\UpWork\Up01\BrainWaveSolution\BrainWave\BrainWave.ModuleAbstractions\obj\Debug\netcoreapp2.0\BrainWave.ModuleAbstractions.pdb

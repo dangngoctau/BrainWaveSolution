@@ -13,14 +13,12 @@ namespace BrainWave.Pages
                name: "BrainWave.Pages.Default",
                areaName: "BrainWave.Pages",
                template: "",
-               defaults: new { controller = "Page", action = "Index" }
-           );
+               defaults: new { controller = "Page", action = "Index" });
             routes.MapAreaRoute(
                 name: "BrainWave.Pages.Generic",
                 areaName: "BrainWave.Pages",
                 template: "BrainWave.Pages/{controller}/{action}/{id?}",
-                defaults: new { controller = "Page", action = "Index" }
-);
+                defaults: new { controller = "Page", action = "Index" });
         }
     }
 }
