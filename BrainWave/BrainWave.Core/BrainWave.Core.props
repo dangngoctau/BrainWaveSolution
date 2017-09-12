@@ -1,0 +1,31 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Target Name="CopyAssets" AfterTargets="Build">
+    <Message Text="Copying razor pages from modules" Importance="high"/>
+    <ItemGroup>
+      <ModuleProjectReferences
+       Include="@(_MSBuildProjectReferenceExistent)"
+       Condition="Exists('%(RootDir)%(Directory)Module.txt') Or Exists('%(RootDir)%(Directory)obj\Module.txt') Or
+                   Exists('%(RootDir)%(Directory)Theme.txt') Or Exists('%(RootDir)%(Directory)obj\Theme.txt')" />
+      <ModuleProjectRazorFiles Include="%(ModuleProjectReferences.RootDir)%(Directory)**\*.cshtml">
+        <ProjectName>%(Filename)</ProjectName>
+      </ModuleProjectRazorFiles>
+    </ItemGroup>
+    <Message Text="Copying view from modules @(ModuleProjectRazorFiles)" Importance="high"/>
+    <Copy
+      SourceFiles="@(ModuleProjectRazorFiles)"
+      DestinationFolder="$(MSBuildProjectDirectory)\Packages\%(ModuleProjectRazorFiles.ProjectName)\%(RecursiveDir)" />
+
+    <ItemGroup>
+      <ModuleProjectContentFiles Include="%(ModuleProjectReferences.RootDir)%(Directory)Content\**\*">
+        <ProjectName>%(Filename)</ProjectName>
+      </ModuleProjectContentFiles>
+      <ModuleProjectContentFilesMapping
+        Include="%(ModuleProjectContentFiles.FullPath)|\Packages\%(ModuleProjectContentFiles.ProjectName)\Content\%(RecursiveDir)">
+      </ModuleProjectContentFilesMapping>
+    </ItemGroup>
+    <Message Text="Copying contents from modules @(ModuleProjectContentFiles)" Importance="high"/>
+    <Copy
+      SourceFiles="@(ModuleProjectContentFiles)"
+      DestinationFolder="$(MSBuildProjectDirectory)\Packages\%(ModuleProjectContentFiles.ProjectName)\Content\%(RecursiveDir)" />
+  </Target>
+</Project>

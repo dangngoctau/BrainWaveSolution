@@ -1,0 +1,17 @@
+D:\Learning\BrainWave\BrainWaveSolution\BrainWave.ModuleAbstractions\bin\Debug\netcoreapp2.0\BrainWave.ModuleAbstractions.deps.json
+D:\Learning\BrainWave\BrainWaveSolution\BrainWave.ModuleAbstractions\bin\Debug\netcoreapp2.0\BrainWave.ModuleAbstractions.dll
+D:\Learning\BrainWave\BrainWaveSolution\BrainWave.ModuleAbstractions\obj\Debug\netcoreapp2.0\BrainWave.ModuleAbstractions.csproj.CoreCompileInputs.cache
+D:\Learning\BrainWave\BrainWaveSolution\BrainWave.ModuleAbstractions\obj\Debug\netcoreapp2.0\BrainWave.ModuleAbstractions.AssemblyInfoInputs.cache
+D:\Learning\BrainWave\BrainWaveSolution\BrainWave.ModuleAbstractions\obj\Debug\netcoreapp2.0\BrainWave.ModuleAbstractions.AssemblyInfo.cs
+D:\Learning\BrainWave\BrainWaveSolution\BrainWave.ModuleAbstractions\bin\Debug\netcoreapp2.0\BrainWave.ModuleAbstractions.pdb
+D:\Learning\BrainWave\BrainWaveSolution\BrainWave.ModuleAbstractions\obj\Debug\netcoreapp2.0\BrainWave.ModuleAbstractions.csprojResolveAssemblyReference.cache
+D:\Learning\BrainWave\BrainWaveSolution\BrainWave.ModuleAbstractions\obj\Debug\netcoreapp2.0\BrainWave.ModuleAbstractions.dll
+D:\Learning\BrainWave\BrainWaveSolution\BrainWave.ModuleAbstractions\obj\Debug\netcoreapp2.0\BrainWave.ModuleAbstractions.pdb
+D:\Learning\BrainWave\BrainWaveSolution\BrainWave\BrainWave.ModuleAbstractions\bin\Debug\netcoreapp2.0\BrainWave.ModuleAbstractions.deps.json
+D:\Learning\BrainWave\BrainWaveSolution\BrainWave\BrainWave.ModuleAbstractions\bin\Debug\netcoreapp2.0\BrainWave.ModuleAbstractions.dll
+D:\Learning\BrainWave\BrainWaveSolution\BrainWave\BrainWave.ModuleAbstractions\bin\Debug\netcoreapp2.0\BrainWave.ModuleAbstractions.pdb
+D:\Learning\BrainWave\BrainWaveSolution\BrainWave\BrainWave.ModuleAbstractions\obj\Debug\netcoreapp2.0\BrainWave.ModuleAbstractions.csproj.CoreCompileInputs.cache
+D:\Learning\BrainWave\BrainWaveSolution\BrainWave\BrainWave.ModuleAbstractions\obj\Debug\netcoreapp2.0\BrainWave.ModuleAbstractions.AssemblyInfoInputs.cache
+D:\Learning\BrainWave\BrainWaveSolution\BrainWave\BrainWave.ModuleAbstractions\obj\Debug\netcoreapp2.0\BrainWave.ModuleAbstractions.AssemblyInfo.cs
+D:\Learning\BrainWave\BrainWaveSolution\BrainWave\BrainWave.ModuleAbstractions\obj\Debug\netcoreapp2.0\BrainWave.ModuleAbstractions.dll
+D:\Learning\BrainWave\BrainWaveSolution\BrainWave\BrainWave.ModuleAbstractions\obj\Debug\netcoreapp2.0\BrainWave.ModuleAbstractions.pdb

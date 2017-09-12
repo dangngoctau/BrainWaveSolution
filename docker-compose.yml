@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  brainwave.web:
+    image: brainwave.web
+    build:
+      context: ./BrainWave.Web
+      dockerfile: Dockerfile

@@ -1,0 +1,17 @@
+D:\Learning\BrainWave\BrainWaveSolution\BrainWave.Web\bin\Debug\netcoreapp2.0\BrainWave.Web.deps.json
+D:\Learning\BrainWave\BrainWaveSolution\BrainWave.Web\bin\Debug\netcoreapp2.0\BrainWave.Web.runtimeconfig.json
+D:\Learning\BrainWave\BrainWaveSolution\BrainWave.Web\bin\Debug\netcoreapp2.0\BrainWave.Web.runtimeconfig.dev.json
+D:\Learning\BrainWave\BrainWaveSolution\BrainWave.Web\bin\Debug\netcoreapp2.0\BrainWave.Web.dll
+D:\Learning\BrainWave\BrainWaveSolution\BrainWave.Web\bin\Debug\netcoreapp2.0\BrainWave.Web.pdb
+D:\Learning\BrainWave\BrainWaveSolution\BrainWave.Web\obj\Debug\netcoreapp2.0\BrainWave.Web.csprojResolveAssemblyReference.cache
+D:\Learning\BrainWave\BrainWaveSolution\BrainWave.Web\obj\Debug\netcoreapp2.0\BrainWave.Web.csproj.CoreCompileInputs.cache
+D:\Learning\BrainWave\BrainWaveSolution\BrainWave.Web\obj\Debug\netcoreapp2.0\BrainWave.Web.AssemblyInfoInputs.cache
+D:\Learning\BrainWave\BrainWaveSolution\BrainWave.Web\obj\Debug\netcoreapp2.0\BrainWave.Web.AssemblyInfo.cs
+D:\Learning\BrainWave\BrainWaveSolution\BrainWave.Web\obj\Debug\netcoreapp2.0\BrainWave.Web.dll
+D:\Learning\BrainWave\BrainWaveSolution\BrainWave.Web\obj\Debug\netcoreapp2.0\BrainWave.Web.pdb
+D:\Learning\BrainWave\BrainWaveSolution\BrainWave.Web\bin\Debug\netcoreapp2.0\BrainWave.Core.dll
+D:\Learning\BrainWave\BrainWaveSolution\BrainWave.Web\bin\Debug\netcoreapp2.0\BrainWave.ModuleAbstractions.dll
+D:\Learning\BrainWave\BrainWaveSolution\BrainWave.Web\bin\Debug\netcoreapp2.0\BrainWave.Core.pdb
+D:\Learning\BrainWave\BrainWaveSolution\BrainWave.Web\bin\Debug\netcoreapp2.0\BrainWave.ModuleAbstractions.pdb
+D:\Learning\BrainWave\BrainWaveSolution\BrainWave.Web\bin\Debug\netcoreapp2.0\BrainWave.Pages.dll
+D:\Learning\BrainWave\BrainWaveSolution\BrainWave.Web\bin\Debug\netcoreapp2.0\BrainWave.Pages.pdb
